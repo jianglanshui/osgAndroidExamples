@@ -1,13 +1,12 @@
 osgAndroidExamples
 ==================
 
-list of examples combining OpenSceneGraph and Android. 
+List of examples combining OpenSceneGraph and Android. 
 
-Architecture of the samples are based on the original code from osgAndroidExampleGLES2 developed by Jorge Izquierdo Ciges (distributed with OSG).
+Architecture of the samples are based on the original code from osgAndroidExampleGLES2 developed by Jorge Izquierdo Ciges (distributed with OSG). You will find each feature demonstrated in osgAndroidExampleGLES2 in separated examples as well as new examples (location, sensor, camera, etc.).
 
 
 Tested with: OpenSceneGraph-3-2.0 + Nexus 10.
-
 
 The source code come as Android 2.3.1 (API 9) project.
 
