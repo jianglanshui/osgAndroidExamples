@@ -36,26 +36,26 @@ Basic Viewer
 Rendering with standard OSG viewer (support touch, keyboard input, camera manipulators).
 
 
-OsgUITouch: display touch values as osgText::Text ("mouse" input).
+OsgUITouch: display touch values as osgText::Text ("mouse" input). See OSGGLView and updateTouch method.
 
 OsgUITouch2 (coming soon)
 
-OsgUIKeyboard:display keyboard values as osgText::Text.
+OsgUIKeyboard:display keyboard values as osgText::Text. See OSGGLView. See OSGGLView and updateTouch method.
 
 OsgViewer: use touch + keyboard information for the viewer.
 
 
 Android Resources
 -----------------
-Access Android resources (sensors, resources management) from a native OSG application.
+Access Android resources (sensors, resources management) from a native OSG application. 
 
-OsgLocation: display location values as osgText::Text.
+OsgLocation: display location values as osgText::Text. see updateLocation method.
 
-OsgSensor: display sensor values as osgText::text.
+OsgSensor: display sensor values as osgText::text. show the orientation sensor. see updateOrientationSensor method.
 
-OsgCamera: display camera image on an osg::Texture.
+OsgCamera: display camera image on an osg::Texture. see updateCamera method.
 
-OsgBitmap: display bitmap from resources on an osg::Texture.
+OsgBitmap: display bitmap from resources on an osg::Texture. see updateBitmap method.
 
 OsgVideoMedia (coming soon)
 
