@@ -15,11 +15,14 @@ Basic
 -----
 OpenGL ES 2.0 Rendering with OSG.
 
-OsgGLView: create an activity, instantiate a default GL View and GL Renderer, call init, update, resize native functions.You get a default renderer.
+
+OsgGLView: create an activity, instantiate a default GL View and GL Renderer, call init, update, resize native functions.You get a default OSG renderer.
 
 OsgGLView2: same as before but use a layout configuration (main_activity.xml) to associate the View to the main activity.
 
 OsgDisplayGeometry: display a basic (drawable) sphere with a really simple shader.
+
+OsgDisplayGeometry2 (coming soon)
 
 OsgDisplayText: display a basic text with a really simple shader.
 
@@ -32,7 +35,10 @@ Basic Viewer
 ------------
 Rendering with standard OSG viewer (support touch, keyboard input, camera manipulators).
 
-OsgUITouch: display touch values as osgText::Text.
+
+OsgUITouch: display touch values as osgText::Text ("mouse" input).
+
+OsgUITouch2 (coming soon)
 
 OsgUIKeyboard:display keyboard values as osgText::Text.
 
@@ -41,6 +47,8 @@ OsgViewer: use touch + keyboard information for the viewer.
 
 Android Resources
 -----------------
+Access Android resources (sensors, resources management) from a native OSG application.
+
 OsgLocation: display location values as osgText::Text.
 
 OsgSensor: display sensor values as osgText::text.
@@ -54,6 +62,10 @@ OsgVideoMedia (coming soon)
 
 Basic GUI
 ---------
+
+OsgUIMenu:
+
+OsgUIToast:
 
 
 -------------------------------------
