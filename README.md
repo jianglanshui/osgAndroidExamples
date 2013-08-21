@@ -26,8 +26,8 @@ Note: The OsgDisplay examples correspond to traditional OSG examples find in a l
 **OsgDisplayGeometry**: basic osg geometry rendering. Display a triangle (geometry, vertex array) with a simple shader (no lighting, default vertex transfo, hardcoded color). 
 Shader code use gl_ binding automatically converted by OSG (lazy mode) and default binding (osg_Vertex for binding vertex array).
 
-**OsgDisplayGeometry2**: basic osg geometry rendering. same as OsgDisplayGeometry without using automatic conversion: you need to use and declare osg_ bindings for attributes and matrix transformation)
-and default binding (osg_Vertex for binding vertex array).
+**OsgDisplayGeometry2**: basic osg geometry rendering. same as OsgDisplayGeometry without using automatic conversion: you need to use and declare osg_ variable in your shaders 
+and use default attrib binding (e.g. osg_Vertex automatically binds to a vertex array declaration).
 
 **OsgDisplayGeometry3**: basic osg geometry rendering. same as OsgDisplayGeometry2 without using automatic conversion and default binding: you need to do the binding yourself between
 shader attributes and your arrays.
