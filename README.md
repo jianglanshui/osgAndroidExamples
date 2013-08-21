@@ -9,14 +9,14 @@ You will find some of the features demonstrated in osgAndroidExampleGLES2 in sep
 
 Tested with: **OpenSceneGraph-3-2.0 + Android NDKr9 + Nexus 10**.
 
-The source code come as Android 2.3.1 (API 9) project, ABI platform 9, armeabiv7-a, neon on (modify Android.mk, Application.mk
-and Eclipse project configuration for any changes).
+The source code come as Android 2.3.1 (API 9) eclipse project, ABI platform 9, armeabiv7-a, neon on (modify the Android.mk, Application.mk
+and Eclipse project configuration files for any changes).
 
 Basic
 -----
 OpenGL ES 2.0 Rendering with OSG.
 
-The OsgDisplay examples correspond to traditional OSG examples find in a lot of common tutorials, if you know well OSG they are not really relevant for you (main difference here is related to ES 2.0 shaders).
+Note: The OsgDisplay examples correspond to traditional OSG examples find in a lot of common tutorials, if you know well OSG they are not really relevant for you (main difference here is related to ES 2.0 shaders).
 
 
 **OsgGLView**: create an activity, instantiate a default GL View and GL Renderer, call init, update, resize native functions.You get a default OSG renderer.
