@@ -12,6 +12,9 @@ Tested with: **OpenSceneGraph-3-2.0 + Android NDKr9 + Nexus 10**.
 The source code come as Android 2.3.1 (API 9) eclipse project, ABI platform 9, armeabiv7-a, neon on (modify the Android.mk, Application.mk
 and Eclipse project configuration files for any changes).
 
+**Usage**: define environment variable OSG_ANDROID_DIR as path to your OpenSceneGraph android installation. Import
+projects in Eclipse, compile (Java + C++), run.
+
 Basic
 -----
 OpenGL ES 2.0 Rendering with OSG.
