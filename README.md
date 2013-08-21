@@ -19,7 +19,7 @@ Basic
 -----
 OpenGL ES 2.0 Rendering with OSG.
 
-Note: The OsgDisplay examples correspond to traditional OSG examples find in a lot of common tutorials, if you know well OSG they are not really relevant for you (main difference here is related to ES 2.0 shaders).
+Note: The OsgDisplay examples correspond to traditional OSG examples find in a lot of common OSG tutorials, if you know well OSG they are not really relevant for you (main difference here is related to ES 2.0 shaders).
 
 
 **OsgGLView**: basic osg renderer. Create an activity, instantiate a default GL View and GL Renderer, call init, update, resize native functions.You get a default OSG renderer.
