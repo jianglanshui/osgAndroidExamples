@@ -67,7 +67,7 @@ Note: please note that using camera manipulator will modify default CS (without:
 
 **OsgViewer**: basic viewer. Use touch + keyboard information for the viewer, can be use for creating handlers.
 
-**OsgViewe2r**: basic viewer with stats. Enable stats with decorator from Aurelien Albert ([decorator with shader](http://lists.openscenegraph.org/pipermail/osg-submissions-openscenegraph.org/2013-February/009873.html)).
+**OsgViewe2**: basic viewer with stats. Enable stats with decorator from Aurelien Albert ([decorator with shader](http://lists.openscenegraph.org/pipermail/osg-submissions-openscenegraph.org/2013-February/009873.html)).
 
 **OsgViewer3**: basic viewer with camera manipulator. Use touch + keyboard informatino for the viewer with a camera manipulator (Trackball).
 
