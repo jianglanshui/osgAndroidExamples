@@ -19,9 +19,9 @@ OpenGL ES 2.0 Rendering with OSG.
 Note: The OsgDisplay examples correspond to traditional OSG examples find in a lot of common tutorials, if you know well OSG they are not really relevant for you (main difference here is related to ES 2.0 shaders).
 
 
-**OsgGLView**: create an activity, instantiate a default GL View and GL Renderer, call init, update, resize native functions.You get a default OSG renderer.
+**OsgGLView**: basic osg renderer. create an activity, instantiate a default GL View and GL Renderer, call init, update, resize native functions.You get a default OSG renderer.
 
-**OsgGLView2**: same as before but use a layout configuration (main_activity.xml) to associate the View to the main activity.
+**OsgGLView2**: basic osg renderer. same as before but use a layout configuration (main_activity.xml) to associate the View to the main activity.
 
 **OsgDisplayGeometry**: basic osg geometry rendering. Display a triangle (geometry, vertex array) with a simple shader (no lighting, default vertex transfo, hardcoded color). 
 Shader code use gl_ binding automatically converted by OSG (lazy mode) and default binding (osg_Vertex for binding vertex array).
@@ -36,11 +36,11 @@ shader attributes and your arrays.
 
 **OsgDisplayGeometryColor2**: basic osg geometry rendering with color. Same as OsgDisplayGeometry, using color array.
 
-**OsgDisplayGeometryTexture**: same as OsgDisplayGeometry, using a built in texture.
+**OsgDisplayGeometryTexture**: basic osg geometry rendering with texture. same as OsgDisplayGeometry, using a built in texture.
 
 **OsgDisplayGeometryLighting** (coming soon)
 
-**OsgDisplayText**: display a basic text with a really simple shader.
+**OsgDisplayText**: basic text. display a basic text with a really simple shader.
 
 **OsgDisplayTransfo**: basic osg transformation. Same as OsgDisplayGeometry, with a MatrixTransform applied to the triangle.
 
@@ -71,27 +71,29 @@ Android Resources
 -----------------
 Access Android resources (sensors, resources management) from a native OSG application. 
 
-**OsgLocation**: display location values as osgText::Text. see updateLocation method.
+**OsgLocation**: location input. display location values as osgText::Text. see updateLocation method.
 
-**OsgSensor**: display sensor values as osgText::text. show the orientation sensor. see updateOrientationSensor method.
+**OsgSensor**: sensor input. display sensor values as osgText::text. show the orientation sensor. see updateOrientationSensor method.
 
-**OsgCamera**: display camera image on an osg::Texture. see updateCamera method.
+**OsgCamera**: camera input. display camera image on an osg::Texture. see updateCamera method.
 
-**OsgCameraBackground**: display camera image in the background of an osg view.
+**OsgCameraBackground**: camera input. display camera image in the background of an osg view.
 
-**OsgCameraOverlay**: display camera image in front of an osg view.
+**OsgCameraOverlay**: camera input. display camera image in front of an osg view.
 
-**OsgBitmap**: display bitmap from resources on an osg::Texture. see updateBitmap method.
+**OsgBitmap**: bitmap resources. display bitmap from resources on an osg::Texture. see updateBitmap method.
 
-OsgVideoMedia (coming soon)
+**OsgVideoMedia** (coming soon)
 
 
 Basic GUI
 ---------
 
-OsgUIMenu:
+**OsgUIMenu**  (coming soon)
 
-OsgUIToast:
+**OsgUIControlOverlay**  (coming soon)
+
+**OsgUIToast**  (coming soon)
 
 
 -------------------------------------
