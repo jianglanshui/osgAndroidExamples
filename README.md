@@ -35,21 +35,21 @@ and use default attribute binding (e.g. osg_Vertex automatically binds to a vert
 **OsgDisplayGeometry3**: basic osg geometry rendering. same as OsgDisplayGeometry2 without using automatic conversion and default binding: you can to do the binding yourself between
 shader attributes and your arrays (e.g. vertex array to MyOsg_Vertex).
 
-**OsgDisplayGeometryColor**: basic osg geometry rendering with color. Same as OsgDisplayGeometry using a uniform for the color.
+**OsgDisplayGeometryColor**: basic osg geometry rendering with color. Same as OsgDisplayGeometry2 using a uniform for the color.
 
-**OsgDisplayGeometryColor2**: basic osg geometry rendering with color. Same as OsgDisplayGeometry using color array.
+**OsgDisplayGeometryColor2**: basic osg geometry rendering with color. Same as OsgDisplayGeometry2 using color array.
 
-**OsgDisplayGeometryTexture**: basic osg geometry rendering with texture. same as OsgDisplayGeometry using a built in texture.
+**OsgDisplayGeometryTexture**: basic osg geometry rendering with texture. same as OsgDisplayGeometry2 using a built in texture.
 
 **OsgDisplayGeometryLighting** (coming soon)
 
-**OsgDisplayText**: basic text. Display a basic text with a really simple shader.
+**OsgDisplayTransfo**: basic osg transformation. Same as OsgDisplayGeometry2 with a MatrixTransform applied to the triangle.
 
-**OsgDisplayTransfo**: basic osg transformation. Same as OsgDisplayGeometry with a MatrixTransform applied to the triangle.
-
-**OsgDisplayAnim**: basic osg animation. Same as OsgDisplayGeometry with an update of triangle orientation in the main loop.
+**OsgDisplayAnim**: basic osg animation. Same as OsgDisplayGeometry2 with an update of triangle orientation in the main loop.
 
 **OsgDisplayAnim2** (coming soon)
+
+**OsgDisplayText**: basic text. Display a basic text with a really simple shader.
 
 **OsgGLViewNative** (coming soon)
 
@@ -68,11 +68,11 @@ Note: please note that using camera manipulator will modify default CS (without:
 
 **OsgUIKeyboard**: keyboard input. Display keyboard values as osgText::Text. See OSGGLView. See OSGGLView and updateTouch method.
 
-**OsgViewer**: basic viewer. Use touch + keyboard information for the viewer, can be use for creating handlers.
+**OsgViewer**: basic viewer. Send touch + keyboard information to the viewer, can be use for creating GA handlers.
 
-**OsgViewe2**: basic viewer with stats. Enable stats with decorator from Aurelien Albert ([decorator with shader](http://lists.openscenegraph.org/pipermail/osg-submissions-openscenegraph.org/2013-February/009873.html)).
+**OsgViewe2**: basic viewer with stats. Enable stats with decorator code from Aurelien Albert ([decorator with shader](http://lists.openscenegraph.org/pipermail/osg-submissions-openscenegraph.org/2013-February/009873.html)).
 
-**OsgViewer3**: basic viewer with camera manipulator. Use touch + keyboard informatino for the viewer with a camera manipulator (Trackball).
+**OsgViewer3**: basic viewer with camera manipulator. Send touch + keyboard information for the viewer combined with a camera manipulator (Trackball).
 
 Android Resources
 -----------------
